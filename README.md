@@ -1,3 +1,7 @@
+# Tài khoản thử nghiệm:
+user: user20 mk: 123456
+admin: thuychuAdmin mk: 123456
+
 # Xây dựng Ứng dụng quản lý sản phẩm:
 
 - Tích hợp Đăng ký đăng nhập
