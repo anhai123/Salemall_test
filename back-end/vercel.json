@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    },
+    {
+      "src": "/shopping/auth/(.*)",
+      "dest": "/"
+    },
+    {
+      "src": "/categories/(.*)",
+      "dest": "/"
+    },
+    {
+      "src": "/api/v1/product/(.*)",
+      "dest": "/"
+    },
+    {
+      "src": "/api/shopping/user/(.*)",
+      "dest": "/"
+    }
+  ]
+}
