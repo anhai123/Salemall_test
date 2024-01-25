@@ -16,7 +16,7 @@ var corsOptions = {
   // optionSuccessStatus: 200,
   // methods: ['AAA'],
   methods: "GET, POST, OPTIONS, PUT, PATCH, DELETE",
-  origin: "http://localhost:3000",
+  origin: "https://salemall-test.vercel.app",
   credentials: true, //access-control-allow-credentials:true
 };
 app.use(cors(corsOptions));

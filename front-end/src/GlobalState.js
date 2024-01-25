@@ -8,17 +8,17 @@ export const GlobalState = createContext();
 
 export const DataProvider = ({ children }) => {
   const [socket, setSocket] = useState(null);
-  const API_URL = 'http://localhost:3000/shopping/';
+  const API_URL = 'https://salemall-test.vercel.app/shopping/';
   const API_ONLY_HREF = 'shopping/';
   // useEffect(() => {
   //   // socketio
-  //   // const socket = io("http://localhost:9001/");
+  //   // const socket = io("https://salemall-test-ukno.vercel.app//");
   //   var connectionOptions = {
   //     extraHeaders: {
   //       "Access-Control-Allow-Origin": "*",
   //     },
   //   };
-  //   const socket = io("http://localhost:9001/", connectionOptions);
+  //   const socket = io("https://salemall-test-ukno.vercel.app//", connectionOptions);
   //   setSocket(socket);
   //   return () => socket.close();
   // }, []);
