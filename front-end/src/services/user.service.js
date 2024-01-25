@@ -1,6 +1,6 @@
 import axios from "axios";
 import authHeader from "./auth-header";
-const API_URL = "https://salemall-test-ukno.vercel.app//api/shopping/user/";
+const API_URL = "https://salemall-test-ukno.vercel.app/api/shopping/user/";
 const patchItemInCart = (userId, cart) => {
   return axios
     .patch(
@@ -69,7 +69,7 @@ const getUserHistoryType = ({ type, page, limit }) => {
 const updatePaymentStatus = (orderId, status) => {
   return axios
     .put(
-      `https://salemall-test-ukno.vercel.app//payment`,
+      `https://salemall-test-ukno.vercel.app/payment`,
       {
         _id: orderId,
         status,

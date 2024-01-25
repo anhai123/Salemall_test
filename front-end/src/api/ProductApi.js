@@ -13,7 +13,7 @@ const ProductsAPI = () => {
   useEffect(() => {
     const getProducts = async () => {
       const response = await axios.get(
-        `https://salemall-test-ukno.vercel.app//api/v1/product/list?limit=${100
+        `https://salemall-test-ukno.vercel.app/api/v1/product/list?limit=${100
         }&page=${page}&${categorySelected}&${sort}&title[regex]=${search}`
       );
 
